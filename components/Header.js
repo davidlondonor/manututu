@@ -1,29 +1,21 @@
+import Image from "next/image";
+
 const Header = () => {
 	const features = [
-		{ name: "Costume Design", description: "Designed by Good Goods, Inc." },
+		{ name: "Costume Design", description: "Designed by Manuela" },
 		{
 			name: "Material",
-			description:
-				"Solid walnut base with rare earth magnets and polycarbonate add-ons.",
+			description: "Designed by Manuela",
 		},
-		{ name: "SFX Makeup", description: '15" x 3.75" x .75"' },
-		{
-			name: "Finish",
-			description: "Hand sanded and finished with natural oil",
-		},
-		{
-			name: "Includes",
-			description:
-				"Pen Tray, Phone Tray, Small Tray, Large Tray, Sticky Note Holder",
-		},
+		{ name: "SFX Makeup", description: "Designed by Manuela" },
 	];
 
 	return (
 		<div className="bg-white">
 			<div aria-hidden="true" className="relative">
 				<img
-					src="https://tailwindui.com/img/ecommerce-images/product-feature-02-full-width.jpg"
-					alt=""
+					src="/img/tallerTeam.jpeg"
+					alt="Taller"
 					className="w-full h-96 object-center object-cover"
 				/>
 				<div className="absolute inset-0 bg-gradient-to-t from-white" />
@@ -32,12 +24,11 @@ const Header = () => {
 			<div className="relative -mt-12 max-w-7xl mx-auto pb-16 px-4 sm:pb-24 sm:px-6 lg:px-8">
 				<div className="max-w-2xl mx-auto text-center lg:max-w-4xl">
 					<h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-						Technical Specifications
+						ManuTuTu
 					</h2>
 					<p className="mt-4 text-gray-500">
-						Organize is a system to keep your desk tidy and photo-worthy
-						all day long. Procrastinate your work while you meticulously
-						arrange items into dedicated trays.
+						Neque porro quisquam est qui dolorem ipsum quia dolor sit
+						amet, consectetur, adipisci velit...
 					</p>
 				</div>
 
