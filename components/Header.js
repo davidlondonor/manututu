@@ -23,9 +23,7 @@ const Header = () => {
 
 			<div className="relative -mt-12 max-w-7xl mx-auto pb-16 px-4 sm:pb-24 sm:px-6 lg:px-8">
 				<div className="max-w-2xl mx-auto text-center lg:max-w-4xl">
-					<h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-						ManuTuTu
-					</h2>
+					<img className="52 " src="img/Logo-manututu.png" alt="Logo" />
 					<p className="mt-4 text-gray-500">
 						Neque porro quisquam est qui dolorem ipsum quia dolor sit
 						amet, consectetur, adipisci velit...

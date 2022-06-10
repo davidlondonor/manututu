@@ -13,12 +13,7 @@ export default function Home() {
 			</Head>
 			<Header />
 			<main className={styles.main}>
-				<h1 className={styles.title}>
-					Welcome to{" "}
-					<a href="https://www.instagram.com/manutututaller/?hl=es">
-						ManuTuTu
-					</a>
-				</h1>
+				<img src="img/Logo-manututu.png" alt="Logo" />
 			</main>
 			{/* <footer className={styles.footer}>
 				<a
