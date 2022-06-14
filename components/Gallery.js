@@ -2,46 +2,46 @@ const products = [
 	{
 		id: 1,
 		name: "Este es un tu tu",
-		price: "Free",
+		price: "Las Ámbar presentamos una Re-Conexión con prendas construidas por medio de Upcycling",
 		href: "#",
-		imageSrc: "img/1.jpeg",
+		imageSrc: "/denim/connection-denim.jpeg",
 		hola: "img/2.jpeg",
 		"img/3.jpeg": "img/4.jpeg",
 		"img/5.jpeg": "img/6.jpeg",
-		imageAlt: "Manuela Black Basic Tee",
+		imageAlt: "Re-Conexión Denim",
+	},
+	{
+		id: 1,
+		name: "Este es un tu tu",
+		price: "🪡 Costume design by: @juanitacastanog @penagossalo.v @mcamilasanzn and @manu.arango",
+		href: "#",
+		imageSrc: "/denim/connection-denim-05.jpeg",
+		hola: "img/2.jpeg",
+		"img/3.jpeg": "img/4.jpeg",
+		"img/5.jpeg": "img/6.jpeg",
+		imageAlt: "Re-Conexión Denime",
 	},
 	{
 		id: 1,
 		name: "Este es un tu tu",
 		price: "Free",
 		href: "#",
-		imageSrc: "img/2.jpeg",
+		imageSrc: "/denim/connection-denim-04.jpeg",
 		hola: "img/2.jpeg",
 		"img/3.jpeg": "img/4.jpeg",
 		"img/5.jpeg": "img/6.jpeg",
-		imageAlt: "Manuela Black Basic Tee",
+		imageAlt: "Re-Conexión Denim",
 	},
 	{
 		id: 1,
 		name: "Este es un tu tu",
 		price: "Free",
 		href: "#",
-		imageSrc: "img/3.jpeg",
+		imageSrc: "/denim/connection-denim-03.jpeg",
 		hola: "img/2.jpeg",
 		"img/3.jpeg": "img/4.jpeg",
 		"img/5.jpeg": "img/6.jpeg",
-		imageAlt: "Manuela Black Basic Tee",
-	},
-	{
-		id: 1,
-		name: "Este es un tu tu",
-		price: "Free",
-		href: "#",
-		imageSrc: "img/4.jpeg",
-		hola: "img/2.jpeg",
-		"img/3.jpeg": "img/4.jpeg",
-		"img/5.jpeg": "img/6.jpeg",
-		imageAlt: "Manuela Black Basic Tee",
+		imageAlt: "Re-Conexión Denim",
 	},
 
 	{
@@ -49,22 +49,22 @@ const products = [
 		name: "Este es un tu tu",
 		price: "Free",
 		href: "#",
-		imageSrc: "img/5.jpeg",
+		imageSrc: "/denim/connection-denim-02.jpeg",
 		hola: "img/2.jpeg",
 		"img/3.jpeg": "img/4.jpeg",
 		"img/5.jpeg": "img/6.jpeg",
-		imageAlt: "Manuela Black Basic Tee",
+		imageAlt: "Re-Conexión Denim",
 	},
 	{
 		id: 1,
 		name: "Este es un tu tu",
 		price: "Free",
 		href: "#",
-		imageSrc: "img/6.jpeg",
+		imageSrc: "/denim/connection-denim-06.jpeg",
 		hola: "img/2.jpeg",
 		"img/3.jpeg": "img/4.jpeg",
 		"img/5.jpeg": "img/6.jpeg",
-		imageAlt: "Manuela Black Basic Tee",
+		imageAlt: "Re-Conexión Denim",
 	},
 ];
 
@@ -74,7 +74,7 @@ export default function Example() {
 			<div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
 				<div className="sm:flex sm:items-baseline sm:justify-between">
 					<h2 className="text-2xl font-extrabold tracking-tight text-gray-900">
-						Entre en nuestra galería
+						🌸 Re-Conexión Denim 🌸
 					</h2>
 					<a
 						href="#"
