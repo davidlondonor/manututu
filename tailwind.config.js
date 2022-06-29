@@ -6,6 +6,10 @@ module.exports = {
 	],
 	theme: {
 		extend: {},
+		minHeight: {
+			minHeight40: "50%",
+			minWidthX: "2rem",
+		},
 	},
 	plugins: [require("@tailwindcss/aspect-ratio")],
 };
