@@ -6,12 +6,16 @@ import images from "../components/Gallery/ImagesGallery";
 const Slider = () => {
 	console.log(images);
 	return (
-		<main className="ml-20 mr-20">
+		<main className="ml-5 mr-5">
 			<motion.div
 				className="carousel cursor-grab overflow-hidden"
 				animate={{ x: 50 }}
 			>
-				<motion.div drag="x" className="inner-carousel flex">
+				<motion.div
+					drag="x"
+					dragConstraints={{ right: 0 }}
+					className="inner-carousel flex"
+				>
 					{images.map((image, index) => {
 						return (
 							<motion.div
