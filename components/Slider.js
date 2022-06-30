@@ -4,10 +4,14 @@ import Image from "next/image";
 import images from "../components/Gallery/ImagesGallery";
 
 const Slider = () => {
+	const [width, setWidth] = useState(0);
+	const carousel = useRef();
+
 	console.log(images);
 	return (
 		<main className="ml-5 mr-5">
 			<motion.div
+				ref={carousel}
 				className="carousel cursor-grab overflow-hidden"
 				animate={{ x: 50 }}
 			>
