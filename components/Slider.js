@@ -8,7 +8,8 @@ const Slider = () => {
 	const carousel = useRef();
 
 	useEffect(() => {
-		console.log(carousel.current);
+		console.log(carousel.current.scrollWidth, carousel.current.offsetWidth);
+		setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
 	}, []);
 
 	console.log(images);
@@ -21,7 +22,7 @@ const Slider = () => {
 			>
 				<motion.div
 					drag="x"
-					dragConstraints={{ right: 0 }}
+					dragConstraints={{ right: 0, left: -width }}
 					className="inner-carousel flex"
 				>
 					{images.map((image, index) => {
