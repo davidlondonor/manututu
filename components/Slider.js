@@ -17,6 +17,7 @@ const Slider = () => {
 		<main className="ml-5 mr-5">
 			<motion.div
 				ref={carousel}
+				whileTap={{ cursor: "grabbing" }}
 				className="carousel cursor-grab overflow-hidden"
 				animate={{ x: 50 }}
 			>
