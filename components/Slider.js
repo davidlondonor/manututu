@@ -1,11 +1,15 @@
 import { motion } from "framer-motion";
-import { useState, useRef, UseEffect } from "react";
+import { useState, useRef, UseEffect, useEffect } from "react";
 import Image from "next/image";
 import images from "../components/Gallery/ImagesGallery";
 
 const Slider = () => {
 	const [width, setWidth] = useState(0);
 	const carousel = useRef();
+
+	useEffect(() => {
+		console.log(carousel.current);
+	}, []);
 
 	console.log(images);
 	return (
@@ -24,7 +28,7 @@ const Slider = () => {
 						return (
 							<motion.div
 								className="item w-1/3 minHeight40 min-w-fit minWidthX p-10"
-								key={2}
+								key={images}
 							>
 								<Image
 									className="rounded-3xl pointer-events-none"
