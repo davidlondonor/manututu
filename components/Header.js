@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Slider from "./Slider";
 
 const Header = () => {
 	const features = [
@@ -21,7 +20,7 @@ const Header = () => {
 				/>
 				<div className="absolute inset-0 bg-gradient-to-t from-white" />
 			</div>
-			<Slider></Slider>
+
 			<div className="relative -mt-12 max-w-7xl mx-auto pb-6 px-4 sm:pb-24 sm:px-6 lg:px-8">
 				<div className="max-w-2xl mx-auto text-center lg:max-w-4xl">
 					<img className="52 " src="img/Logo-manututu.png" alt="Logo" />

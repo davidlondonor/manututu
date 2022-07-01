@@ -14,12 +14,12 @@ const Slider = () => {
 
 	console.log(images);
 	return (
-		<main className="ml-5 mr-5">
+		<main className="ml-4 mr-4 md:ml-3 md:mr-3 sm:ml-3 sm:mr-3">
 			<motion.div
 				ref={carousel}
 				whileTap={{ cursor: "grabbing" }}
 				className="carousel cursor-grab overflow-hidden"
-				animate={{ x: 50 }}
+				animate={{ x: 10 }}
 			>
 				<motion.div
 					drag="x"
@@ -29,7 +29,7 @@ const Slider = () => {
 					{images.map((image, index) => {
 						return (
 							<motion.div
-								className="item w-1/3 minHeight40 min-w-fit minWidthX p-10"
+								className="item w-1/3 minHeight40 min-w-fit minWidthX p-10 sm:px-2 md:px-2"
 								key={images}
 							>
 								<Image
@@ -44,7 +44,6 @@ const Slider = () => {
 					})}
 				</motion.div>
 			</motion.div>
-			<h1>Hola</h1>
 		</main>
 	);
 };
