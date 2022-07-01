@@ -129,69 +129,7 @@ const Contact = () => {
 									></textarea>
 								</div>
 							</div>
-							<fieldset className="sm:col-span-2">
-								<legend className="block text-sm font-medium text-gray-700">
-									Expected budget
-								</legend>
-								<div className="mt-4 grid grid-cols-1 gap-y-4">
-									<div className="flex items-center">
-										<input
-											id="budget-under-25k"
-											name="budget"
-											value="under_25k"
-											type="radio"
-											className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
-										/>
-										<label className="ml-3">
-											<span className="block text-sm text-gray-700">
-												Less than $25K
-											</span>
-										</label>
-									</div>
-									<div className="flex items-center">
-										<input
-											id="budget-25k-50k"
-											name="budget"
-											value="25k-50k"
-											type="radio"
-											className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
-										/>
-										<label className="ml-3">
-											<span className="block text-sm text-gray-700">
-												$25K – $50K
-											</span>
-										</label>
-									</div>
-									<div className="flex items-center">
-										<input
-											id="budget-50k-100k"
-											name="budget"
-											value="50k-100k"
-											type="radio"
-											className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
-										/>
-										<label className="ml-3">
-											<span className="block text-sm text-gray-700">
-												$50K – $100K
-											</span>
-										</label>
-									</div>
-									<div className="flex items-center">
-										<input
-											id="budget-over-100k"
-											name="budget"
-											value="over_100k"
-											type="radio"
-											className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
-										/>
-										<label className="ml-3">
-											<span className="block text-sm text-gray-700">
-												$100K+
-											</span>
-										</label>
-									</div>
-								</div>
-							</fieldset>
+
 							<div className="sm:col-span-2">
 								<label className="block text-sm font-medium text-gray-700">
 									How did you hear about us?
@@ -208,7 +146,7 @@ const Contact = () => {
 							<div classNameName="text-right sm:col-span-2">
 								<button
 									type="submit"
-									classNameName="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									classNameName="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 bg-gray-400"
 								>
 									Submit
 								</button>
