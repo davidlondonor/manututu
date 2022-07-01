@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Gallery from "../components/Gallery";
 import { BsInstagram } from "react-icons/bs";
 import Slider from "../components/Slider";
+import Contact from "../components/Gallery/Contact";
 
 export default function Home() {
 	return (
@@ -38,6 +39,7 @@ export default function Home() {
 					</span>
 				</a>
 			</footer>
+			<Contact></Contact>
 		</div>
 	);
 }

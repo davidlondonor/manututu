@@ -11,5 +11,8 @@ module.exports = {
 			minWidthX: "2rem",
 		},
 	},
-	plugins: [require("@tailwindcss/aspect-ratio")],
+	plugins: [
+		require("@tailwindcss/aspect-ratio"),
+		require("@tailwindcss/forms"),
+	],
 };
