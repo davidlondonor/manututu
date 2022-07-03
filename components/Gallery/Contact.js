@@ -70,7 +70,7 @@ const Contact = () => {
 									/>
 								</div>
 							</div>
-							<div className="sm:col-span-2">
+							{/* <div className="sm:col-span-2">
 								<label className="block text-sm font-medium text-gray-700">
 									Company
 								</label>
@@ -83,7 +83,7 @@ const Contact = () => {
 										className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
 									/>
 								</div>
-							</div>
+							</div> */}
 							<div className="sm:col-span-2">
 								<div className="flex justify-between">
 									<label className="block text-sm font-medium text-gray-700">
@@ -130,7 +130,7 @@ const Contact = () => {
 								</div>
 							</div>
 
-							<div className="sm:col-span-2">
+							{/* <div className="sm:col-span-2">
 								<label className="block text-sm font-medium text-gray-700">
 									How did you hear about us?
 								</label>
@@ -142,7 +142,7 @@ const Contact = () => {
 										className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
 									></input>
 								</div>
-							</div>
+							</div> */}
 							<div classNameName="text-right sm:col-span-2">
 								<button
 									type="submit"
