@@ -22,14 +22,19 @@ export default function Home() {
 			</main> */}
 			<Slider></Slider>
 			<Gallery />
+			<Contact />
 			<footer className={styles.footer}>
 				<a
 					href="https://www.instagram.com/manutututaller/"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
+					<p className="text-sm">
+						Quieres conocer un poco más, sigueme en:
+					</p>
 					<span className={styles.logo}>
-						<BsInstagram />
+						{" "}
+						<BsInstagram className="fill-gray-400	" />
 						{/* <Image
 							src="/vercel.svg"
 							alt="Vercel Logo"
@@ -39,7 +44,6 @@ export default function Home() {
 					</span>
 				</a>
 			</footer>
-			<Contact></Contact>
 		</div>
 	);
 }
