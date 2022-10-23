@@ -14,11 +14,10 @@ const Contact = () => {
 				<div className="lg:pr-8">
 					<div className="max-w-md mx-auto sm:max-w-lg lg:mx-0">
 						<h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-							Lets work together with a Dream
+							Vamos a contruir un sueño juntos.
 						</h2>
 						<p className="mt-4 text-lg text-gray-500 sm:mt-3">
-							We’d love to hear from you! Send us a message using the
-							form opposite, or email us.
+							Escríbeme un mensaje.
 						</p>
 						<form
 							action="#"
@@ -27,7 +26,7 @@ const Contact = () => {
 						>
 							<div>
 								<label className="block text-sm font-medium text-gray-700">
-									First name
+									Primer nombre
 								</label>
 								<div className="mt-1">
 									<input
@@ -41,7 +40,7 @@ const Contact = () => {
 							</div>
 							<div>
 								<label className="block text-sm font-medium text-gray-700">
-									Last name
+									Apellido
 								</label>
 								<div className="mt-1">
 									<input
@@ -58,7 +57,7 @@ const Contact = () => {
 									htmlFor="email"
 									className="block text-sm font-medium text-gray-700"
 								>
-									Email
+									Correo electrónico
 								</label>
 								<div className="mt-1">
 									<input
@@ -87,13 +86,13 @@ const Contact = () => {
 							<div className="sm:col-span-2">
 								<div className="flex justify-between">
 									<label className="block text-sm font-medium text-gray-700">
-										Phone
+										Celular
 									</label>
 									<span
 										id="phone-description"
 										className="text-sm text-gray-500"
 									>
-										Optional
+										Opcional
 									</span>
 								</div>
 								<div className="mt-1">
@@ -110,13 +109,13 @@ const Contact = () => {
 							<div className="sm:col-span-2">
 								<div className="flex justify-between">
 									<label className="block text-sm font-medium text-gray-700">
-										How can we help you?
+										Cómo puedo ayudarte?
 									</label>
 									<span
 										id="how-can-we-help-description"
 										className="text-sm text-gray-500"
 									>
-										Max. 500 characters
+										Max. 500 caracteres
 									</span>
 								</div>
 								<div className="mt-1">
@@ -148,7 +147,7 @@ const Contact = () => {
 									type="submit"
 									classNameName="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 bg-gray-400"
 								>
-									Submit
+									Enviar
 								</button>
 							</div>
 						</form>
